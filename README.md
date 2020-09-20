@@ -2,4 +2,4 @@
 
 
 
-[Ссылка на CV/html](https://Olexandir.github.io/rsschool-cv/)
+[Ссылка на CV/html](https://Olexandir.github.io/rsschool-cv/index.html)
