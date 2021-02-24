@@ -1,34 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #c5ffa0;
-    text-align: center;
-    border: 10px double black
+  text-align: center;
+  border: 10px double black;
 }
 
-h2 {
-    font-size: 20px;
-    text-align: center
+.container {
+  background-color: #c5ffa0;
+  height: fit-content;
 }
 
-p {
-    color: #600000;
-    font-size: 20px;
-    text-align: center
-}
-
-img {
-    width: 90px;
-    height: 135px;
-    text-align: center;
-}
-
-head {
-    text-align: center;
-}
-
-ul {
-    text-align: center;
+.name {
+  padding-top: 10px;
+  font-size: 1.5rem;
 }
 
 .points {
-    text-align: center;
+  margin-left: 10px;
+  text-align: left;
+  list-style: none;
+}
+
+.skills {
+  margin-left: 10px;
+  text-align: left;
+  list-style: none;
+}
+
+.edu {
+  margin-left: 10px;
+  text-align: left;
+  list-style: none;
+}
+
+.header {
+  margin-top: 10px;
+  position: relative;
+  text-align: left;
+  left: 25px;
+}
+
+.en {
+  margin-left: 10px;
+  text-align: left;
+  list-style: none;
+  padding-bottom: 15px;
 }
