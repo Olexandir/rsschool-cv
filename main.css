@@ -54,6 +54,7 @@ body {
 .about h2 {
 }
 .about p {
+  padding-top: 1rem;
 }
 
 .main__wrapper {
