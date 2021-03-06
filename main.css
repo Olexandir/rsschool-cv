@@ -87,6 +87,7 @@ body {
 }
 
 .skills__list {
+  list-style: none;
 }
 
 .skills__list li {
@@ -103,6 +104,7 @@ body {
 }
 
 .education__list {
+  list-style: none;
 }
 
 .education__list li {
@@ -119,6 +121,7 @@ body {
 }
 
 .experience__list {
+  list-style: none;
 }
 
 .experience__list li {
