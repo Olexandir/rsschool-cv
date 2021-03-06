@@ -1,34 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #c5ffa0;
-    text-align: center;
-    border: 10px double black
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
-h2 {
-    font-size: 20px;
-    text-align: center
+.hero__wrapper {
+  background-image: url("https://img3.goodfon.ru/original/2560x1024/8/1c/pattern-wall-floor-dark-wood.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
 }
 
-p {
-    color: #600000;
-    font-size: 20px;
-    text-align: center
+.hero {
+  width: 90%;
 }
 
-img {
-    width: 90px;
-    height: 135px;
-    text-align: center;
+.head h1 {
+  text-align: right;
+  padding-right: 10%;
+  text-shadow: 0 0 10px white;
+  text-transform: uppercase;
 }
 
-head {
-    text-align: center;
+.content {
+  display: flex;
+  padding-bottom: 5%;
 }
 
-ul {
-    text-align: center;
+.content img {
+  width: 15%;
+  box-shadow: 0 0 10px whitesmoke;
 }
 
-.points {
-    text-align: center;
+.about {
+  height: 100%;
+}
+.about h2 {
+}
+.about p {
+}
+
+.main__wrapper {
+  width: 100%;
+  background-image: linear-gradient(135deg, #f5f7fa, #c3cfc3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(45, 45, 45);
+}
+
+.main {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills {
+  display: flex;
+  width: 100%;
+}
+
+.skills h2 {
+  width: 25%;
+  text-align: center;
+}
+
+.skills__list {
+}
+
+.skills__list li {
+}
+
+.education {
+  display: flex;
+  width: 100%;
+}
+
+.education h2 {
+  width: 25%;
+  text-align: center;
+}
+
+.education__list {
+}
+
+.education__list li {
+}
+
+.experience {
+  width: 100%;
+  display: flex;
+}
+
+.experience h2 {
+  width: 25%;
+  text-align: center;
+}
+
+.experience__list {
+}
+
+.experience__list li {
+}
+
+.footer__wrapper {
+  background-image: url("https://boss-digital.co.uk/wp-content/uploads/2017/03/Black-Background.png");
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  color: whitesmoke;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.logo a img {
+  width: 30%;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.footer h4 {
+  width: 50%;
+  text-align: center;
+}
+
+.icons {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  padding-right: 3rem;
+}
+
+.icons a {
+  text-decoration: none;
+  color: whitesmoke;
 }
