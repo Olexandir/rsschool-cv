@@ -48,6 +48,7 @@ body {
 }
 
 .about {
+  padding-left: 2rem;
   height: 100%;
 }
 .about h2 {
