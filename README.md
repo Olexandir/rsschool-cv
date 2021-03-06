@@ -1,1 +1,0 @@
-[Ссылка на CV/html](https://Olexandir.github.io/rsschool-cv/index)
